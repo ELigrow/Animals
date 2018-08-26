@@ -21,7 +21,7 @@ public class FileInput {
 
     /**
      * Specifies file to read
-     * @param fileName
+     * @param fileName String: Name of file
      */
     public FileInput(String fileName) {
         this.fileName = fileName;
@@ -48,7 +48,7 @@ public class FileInput {
 
     /**
      *Reads a line from specified file
-     * @return error
+     * @return error String: Returned error
      */
     public String fileReadLine() {
         try {

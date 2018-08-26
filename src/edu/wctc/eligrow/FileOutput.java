@@ -18,7 +18,7 @@ public class FileOutput {
 
     /**
      * Specifies file to write
-     * @param fileName
+     * @param fileName String: Name of file
      */
     public FileOutput(String fileName) {
         this.fileName = fileName;
@@ -32,7 +32,7 @@ public class FileOutput {
 
     /**
      * Writes to specified file
-     * @param line
+     * @param line String: Line to write to file
      */
     public void fileWrite(String line) {
         try {

@@ -14,8 +14,8 @@ public class Student extends Person implements Talkable {
 
     /**
      * Person entity with name and age.
-     * @param age
-     * @param name
+     * @param age Number: Age of entity
+     * @param name String: Name of entity
      */
     public Student(int age, String name) {
         super(name);
@@ -32,7 +32,7 @@ public class Student extends Person implements Talkable {
 
     /**
      * Sets age of entity
-     * @param age
+     * @param age Number: Age of entity
      */
     public void setAge(int age) {
         this.age = age;

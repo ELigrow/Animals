@@ -20,7 +20,7 @@ public abstract class Person {
 
     /**
      * Sets name of entity
-     * @param name
+     * @param name String: Name of entity
      */
     public Person(String name) {
         this.name = name;

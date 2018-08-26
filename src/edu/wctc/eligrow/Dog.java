@@ -1,10 +1,6 @@
 package edu.wctc.eligrow;
 
 /**
- * Created by mgreen14 on 12/27/17.
- */
-
-/**
  * This is a Pet entity that implements the Talkable interface.
  * @author Matt Green
  * @version 1.0
@@ -14,10 +10,8 @@ public class Dog extends Pet implements Talkable {
 
     /**
      * Non-Person entity that can be friendly and has a name.
-     * @author Matt Green
-     * @version 1.0
-     * @param friendly True or False. Indicates friendliness of entity.
-     * @param name Name of entity.
+     * @param friendly Boolean: Indicates friendliness of entity.
+     * @param name String: Name of entity.
      */
     public Dog(boolean friendly, String name) {
         super(name);
